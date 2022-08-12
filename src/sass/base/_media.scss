@@ -1,0 +1,25 @@
+@media (max-width: 767px) {
+    .header {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .promo__wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .advantages__icons {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .advantages__icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .advantages__item {
+        margin-top: 25px;
+    }
+}
