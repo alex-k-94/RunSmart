@@ -11,9 +11,36 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+    .consultation__descr {
+        padding-left: 15px;
+    }
+    .feed-form {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 @media (max-width: 575px) {
+    .header__official {
+        display: none;
+    }
+    .promo__header {
+        display: block;
+        margin: 0 auto;
+    }
+    .promo__subheader {
+        display: block;
+        margin: 0 auto;
+    }
+    .promo__icons {
+        margin: 0 auto;
+    }
+    .button_main {
+        margin: 0 auto;
+    }
+    .promo__link {
+        margin: 0 auto;
+    }
     .advantages__icons {
         display: flex;
         flex-direction: column;
@@ -21,5 +48,11 @@
     }
     .advantages__item {
         margin-top: 25px;
+    }
+    .consultation {
+        margin-top: 25px;
+    }
+    .title__left {
+        text-align-last: center;
     }
 }
