@@ -2,8 +2,8 @@ $(document).ready(function(){
     $('.carousel__inner').slick({
         speed: 1200,
         adaptiveHeight: true,
-        prevArrow: '<button type="button" class="slick-prev"><img src="icons/left.svg"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="icons/right.svg"></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="icons/left.png"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="icons/right.png"></button>',
         responsive: [
             {
                 breakpoint: 992,
@@ -81,8 +81,6 @@ $(document).ready(function(){
     validateForms('#consultation form');
     validateForms('#order form');
 
-    $('input[name=phone]').mask("+7 (999) 999-99-99");
-
     /* mail */
 
     $('form').submit(function(e) {
@@ -122,4 +120,6 @@ $(document).ready(function(){
         $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
         return false;
     });
+
+    new WOW
 });
